@@ -13,8 +13,29 @@
             <h1>Expiration Calendar</h1>
         </div>
     </div>
-    <div class="form">
-
+    <div class="container-form">
+        <div class="form">
+            <form action="/my-form-handling-page" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Item Name:</label>
+                        <input type="text" name="item_name" id="name"/>
+                    </li>
+                    <li>
+                        <label for="flavor">Item Flavor:</label>
+                        <input type="text" name="item_flavor" id="flavor"/>
+                    </li>
+                    <li>
+                        <label for="exp-date">Expiration Date:</label>
+                        <input type="date" name="expiration_date" id="exp-date">
+                    </li>
+                    <li>
+                        <label for="notes">Notes:</label>
+                        <textarea name="notes" id="notes"></textarea>
+                    </li>
+                </ul>
+            </form>
+        </div>
     </div>
     
 
